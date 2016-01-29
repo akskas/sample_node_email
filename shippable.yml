@@ -38,3 +38,16 @@ integrations:
       branches:
         only:
           - master
+
+  notifications:
+      - integrationName: email
+        type: email
+        recipients:
+          - revathi@shippable.com
+          - padmakumar.revathi@gmail.com
+       # branches:
+        #  - master
+        #  - dev
+       # on_success: always
+        #on_failure: always
+        on_start: never
