@@ -30,7 +30,7 @@ build:
    # - npm test
 
   post_ci:
-    - docker push shippabledocker/hitchcock3_sample_node
+    - docker push shippabledocker/hitchcock3_sample_node1
 
 integrations:
   hub:
@@ -49,7 +49,7 @@ integrations:
        # branches:
         #  - master
         #  - dev
-      on_success: change
+      #on_success: change
       on_failure: change
       on_start: always
 
