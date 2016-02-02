@@ -50,6 +50,6 @@ integrations:
         #  - master
         #  - dev
       on_success: change
-      on_failure: never
+      #on_failure: never
       on_start: always
 
