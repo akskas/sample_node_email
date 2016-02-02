@@ -49,7 +49,7 @@ integrations:
        # branches:
         #  - master
         #  - dev
-      on_success: never
+      on_success: change
       on_failure: never
       on_start: always
       
