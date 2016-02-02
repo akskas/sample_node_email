@@ -52,6 +52,4 @@ integrations:
       on_success: change
       on_failure: never
       on_start: always
-      
-      
-      
+
