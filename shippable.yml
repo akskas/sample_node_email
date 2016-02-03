@@ -43,9 +43,9 @@ integrations:
   notifications:
     - integrationName: email
       type: email
-      recipients:
+      recipients:  padmakumar.revathi@gmail.com
         #- revathi@shippable.com
-        - padmakumar.revathi@gmail.com
+
        # branches:
         #  - master
         #  - dev
