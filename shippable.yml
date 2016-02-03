@@ -43,13 +43,13 @@ integrations:
   notifications:
     - integrationName: email
       type: email
-      recipients:
+      #recipients:
         #- revathi@shippable.com
-        - padmakumar.revathi@gmail.com
+       # - padmakumar.revathi@gmail.com
        # branches:
         #  - master
         #  - dev
       on_success: always
-      on_failure: change
+      on_failure: always
       on_start: always
       
