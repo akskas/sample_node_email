@@ -36,12 +36,12 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+     # branches:
+       # only:
+        #  - master
 
   notifications:
-    - integrationName: email
+    - integrationName: emal
       type: email
       recipients:
         #- revathi@shippable.com
