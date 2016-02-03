@@ -36,9 +36,9 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+     # branches:
+      #  only:
+       #   - master
 
   notifications:
     - integrationName: email
@@ -51,5 +51,5 @@ integrations:
         #  - master
         #  - dev
       on_success: always
-      on_failure: change
+      on_failure: always
       on_start: always
