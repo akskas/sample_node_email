@@ -45,7 +45,7 @@ integrations:
       type: email
       recipients:
         - revathi@shippable.com
-         padmakumar.revathi@gmail.com
+          padmakumar.revathi@gmail.com
        # branches:
         #  - master
         #  - dev
