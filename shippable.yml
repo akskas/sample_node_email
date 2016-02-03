@@ -47,6 +47,7 @@ integrations:
         #- revathi@shippable.com
         - padmakumar.revathi@gmail.com
       branches:
+       only
         - master
         - test_341
       on_success: always
