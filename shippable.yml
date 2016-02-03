@@ -42,7 +42,7 @@ integrations:
 
   notifications:
     - integrationName: email
-      type: slack
+      type: irc
       recipients:
         #- revathi@shippable.com
         - padmakumar.revathi@gmail.com
