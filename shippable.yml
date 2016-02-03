@@ -41,8 +41,8 @@ integrations:
         #  - master
 
   notifications:
-    - integrationName: emali
-      type: email
+    - integrationName: email
+      type: slack
       recipients:
         #- revathi@shippable.com
         - padmakumar.revathi@gmail.com
