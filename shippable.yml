@@ -39,17 +39,16 @@ integrations:
       branches:
         only:
           - master
-
   notifications:
-    - integrationName: email
-      type: email
-      recipients:
-        #- revathi@shippable.com
-        - padmakumar.revathi@gmail.com
-       # branches:
-        #  - master
-        #  - dev
-      on_success: always
-      on_failure: change
-      on_start: always
+        - integrationName: email
+          type: email
+          recipients
+            - revathi@shippable.com
+            #- exampletwo@org.com
+          branches:
+            only:
+                - master
+                - test_341
+          on_success: always
+          on_failure: always 
       
