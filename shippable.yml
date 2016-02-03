@@ -48,7 +48,7 @@ integrations:
             #- exampletwo@org.com
           branches:
             only:
-                - test_350
+                - test_3501
                 #- dev
           on_success: always
           on_failure: always 
