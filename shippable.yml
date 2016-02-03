@@ -41,7 +41,7 @@ integrations:
         #  - master
 
   notifications:
-    - integrationName: emal
+    - integrationName: emali
       type: email
       recipients:
         #- revathi@shippable.com
