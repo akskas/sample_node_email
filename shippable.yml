@@ -27,6 +27,7 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi
    # - npm test
 
   post_ci:
