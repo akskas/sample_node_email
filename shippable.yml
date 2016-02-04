@@ -46,7 +46,6 @@ integrations:
       recipients:
         #- revathi@shippable.com
         - ankul@shippable.com
-          mabcd@gmail.com
       branches:
        only
         - master
