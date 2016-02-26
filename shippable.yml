@@ -30,14 +30,13 @@ build:
    # - npm test
 
   post_ci:
-    - docker push shippabledocker/hitchcock3_sample_node
+    - echo 'done'
 
 integrations:
   notifications:
     - integrationName: email
       type: email
       recipients:
-        #- revathi@shippable.com
         - ankul@shippable.com
       branches:
        only
