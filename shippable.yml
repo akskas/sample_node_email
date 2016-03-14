@@ -16,11 +16,11 @@ env:
 
 build:
   pre_ci:
-    - docker build -t=shippabledocker/hitchcock3_sample_node .
+    - echo 'pre-ci'
 
   pre_ci_boot:
-    image_name: shippabledocker/hitchcock3_sample_node
-    image_tag: latest
+    image_name: drydock/u12nod
+    image_tag: prod
     pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
