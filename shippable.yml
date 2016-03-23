@@ -33,12 +33,12 @@ build:
     - docker push shippabledocker/hitchcock3_sample_node
 
 integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker
-      branches:
-        only:
-          - master
+  # hub:
+  #   - integrationName: ship-docker
+  #     type: docker
+  #     branches:
+  #       only:
+  #         - master
 
   # notifications:
   #   - integrationName: email
