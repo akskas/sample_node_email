@@ -37,7 +37,7 @@ integrations:
     - integrationName: email
       type: email
       recipients:
-        - ankul@shippable.com
+        - ankulkumar001@gmail.com
       branches:
        only
         - master
